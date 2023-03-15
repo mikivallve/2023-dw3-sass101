@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "b": "node-sass scss --recursive --output  dist/css --output-style compressed",
+    "copyhtml": "copyfiles *.html dist",
+    "b": "node-sass scss --recursive --output  dist/css --output-style compressed && npm run copyhtml",
     "w": "node-sass --watch scss --recursive --output  css --source-map true"
   },
   "author": "",
