@@ -1,0 +1,7 @@
+body {background: white;}
+body > * {animation: aparece 1s 3s reverse forwards;}
+
+@keyframes aparece {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }

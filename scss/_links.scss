@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    color: $links;
+    &:hover{
+        color: inherit
+    }
+}
+
+p>a{
+    text-decoration: none;
+    color: inherit;
+    &:hover{
+        color: $links
+    }
+}

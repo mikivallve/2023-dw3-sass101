@@ -1,0 +1,17 @@
+{
+  "name": "dw3-sass101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "b": "node-sass scss --recursive --output  dist/css --output-style compressed",
+    "w": "node-sass --watch scss --recursive --output  css --source-map true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+body {background:#333; transition: background-color 1s 1s; }
+body > * {
+    opacity: 0;
+}
